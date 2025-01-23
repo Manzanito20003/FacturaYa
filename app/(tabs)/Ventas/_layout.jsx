@@ -7,7 +7,14 @@ export default function VentasLayout() {
       <Stack.Screen
         name="index" // Ruta principal
         options={{
-          title: "Ventas",
+          title: "ventas",
+          headerShown: false, // Oculta el header para esta pantalla
+        }} // Título que aparecerá en la navegación
+      />
+      <Stack.Screen
+        name="createventa" // Ruta principal
+        options={{
+          title: "Crear Venta",
           headerShown: false, // Oculta el header para esta pantalla
         }} // Título que aparecerá en la navegación
       />
